@@ -1,0 +1,168 @@
+body {
+    font-size: 10px;
+    letter-spacing: 0.7px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+hr {
+    background-color: navy;
+    height: 0.5rem;
+}
+a {
+    margin: 20px;
+    color: white;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    border: 5px solid navy;
+    text-align: center;
+    padding: 15px;
+}
+nav>ul>li>a {
+    font-size: 1.5rem;
+}
+
+p {
+    height: 300px;
+    width: 200px;
+
+}
+header {
+    color: grey;
+    font-size: 4rem;
+    margin: auto;
+    text-align: center;
+    box-shadow: none;
+}
+div>ol>li>a {
+    list-style-type: none;
+    width: 300px;
+    height: 50px;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: serif;
+    
+}
+heading {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.container {
+    height: 15px;
+    width: 50%;
+    position: relative;
+    border: 2px solid navy;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.paragraph {
+    font-size: 0.8rem;
+}
+.welcome {
+    font-size: 0.9rem;
+    width: 100%;
+}
+a:hover {
+    text-decoration: none;
+    color: navy;
+    font-size: 2rem;
+}
+
+  a:active {
+    color: gold;
+  }
+
+div.a {
+    line-height: 1.2;
+}
+div.b {
+    line-height: 1.6;
+}
+div.c {
+    line-height: normal;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color: navy;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+@font-face {
+    font-family: sans-serif;
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+  }
+
+  @font-face {
+    font-family: serif;
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+  }
